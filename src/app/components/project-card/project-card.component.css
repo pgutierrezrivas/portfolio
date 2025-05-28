@@ -1,0 +1,61 @@
+.btn {
+    letter-spacing: 1px;
+}
+
+.btn-blue {
+    background-color: #04194D;
+    color: white;
+    box-shadow: 4px 5px #878AF6;
+}
+
+.btn-blue:hover {
+    background-color: #DFF944;
+    color: #04194D;
+    transition: 0.5s;
+}
+
+.btn-yellow {
+    background-color: #DFF944;
+    color: #04194D;
+}
+
+.btn-yellow:hover {
+    background-color: #878AF6;
+    color: white;
+    transition: 0.5s;
+}
+
+.text-purple {
+    color: #878AF6;
+}
+
+.card-text {
+    font-size: 1.3rem;
+}
+
+.card {
+    background-color: #E6E7FC;
+    border: none;
+    box-shadow: 5px 5px #04194D;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 8px 10px #878AF6;
+}
+
+.card figure {
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}

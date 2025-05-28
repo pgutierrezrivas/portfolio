@@ -1,0 +1,36 @@
+.text-box h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.text-box h2 span {
+    background: #DFF944;
+    font-family: "Patrick Hand", cursive;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 0 12px;
+}
+
+.text-box p {
+    line-height: 1.5;
+}
+
+.img-box {
+    box-sizing: content-box;
+}
+
+.btn {
+    letter-spacing: 1px;
+}
+
+.btn-blue {
+    background-color: #04194D;
+    color: white;
+    box-shadow: 4px 5px #878AF6;
+}
+
+.btn-blue:hover {
+    background-color: #DFF944;
+    color: #04194D;
+    transition: 0.5s;
+}

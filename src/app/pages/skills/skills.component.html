@@ -1,0 +1,14 @@
+<section class="container row gap-4">
+    <!-- Card contenedora -->
+    <div class="skill-card-flip" [class.flipped]="isFlipped" (click)="isFlipped = !isFlipped">
+        <!-- Parte frontal -->
+        <div class="front">
+        <i class="fab fa-angular"></i>
+        <h4>#Angular</h4>
+        </div>
+        <!-- Parte trasera -->
+        <div class="back">
+        <p>Detalles técnicos...</p>
+        </div>
+    </div>
+</section>
