@@ -1,11 +1,9 @@
-.btn {
-    letter-spacing: 1px;
-}
 
 .btn-blue {
     background-color: #04194D;
     color: white;
     box-shadow: 4px 5px #878AF6;
+    letter-spacing: 2px;
 }
 
 .btn-blue:hover {
