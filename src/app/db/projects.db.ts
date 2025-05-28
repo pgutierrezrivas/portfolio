@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
         id: '3',
         title: 'TEAcompañamos (grupal)',
         tags: ['Figma', ' UX/UI', ' User Story', ' Wireframes'],
-        githubUrl: 'https://drive.google.com/file/d/1M4qq_BX1QFVubb-LpoH-EzVVKIyQQskf/view?usp=sharing',
+        figmaUrl: 'https://drive.google.com/file/d/1M4qq_BX1QFVubb-LpoH-EzVVKIyQQskf/view?usp=sharing',
         demoUrl: 'https://drive.google.com/file/d/1M4qq_BX1QFVubb-LpoH-EzVVKIyQQskf/view?usp=sharing',
         image: 'assets/images/projects/img-tea.jpg'
     },
