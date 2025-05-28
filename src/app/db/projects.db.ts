@@ -31,6 +31,7 @@ export const PROJECTS: Project[] = [
         title: 'Web VacantGo (grupal)',
         tags: ['Angular', ' Spring Boot', ' Basic Security'],
         githubUrl: 'https://github.com/pgutierrezrivas/vacantes-front',
+        figmaUrl: 'https://drive.google.com/file/d/15ngh1JHgE5rvQMf17G8XeBducGEAC_Lh/view?usp=sharing',
         demoUrl: 'https://drive.google.com/file/d/1l-hGgFkB76xdnXoIrzBFFQeSiJkbfP8n/view?usp=sharing',
         image: 'assets/images/projects/img-vacantes.png'
 
