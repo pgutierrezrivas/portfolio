@@ -14,9 +14,9 @@ export const PROJECTS: Project[] = [
         title: 'Web Indimetra (grupal)',
         tags: ['Angular', ' Spring Boot', ' JWT Security'],
         githubUrl: 'https://github.com/rdupier/indimetra-front',
+        figmaUrl: 'https://drive.google.com/file/d/10iDappX42RIJKYO62ZoPmNQBazKVU54J/view?usp=sharing',
         demoUrl: 'https://drive.google.com/file/d/1l8IEoWTa84-ro8JEQV5B1vT0U3kWM4ht/view?usp=sharing',
         image: 'assets/images/projects/img-indimetra.png'
-
     },
     {
         id: '3',

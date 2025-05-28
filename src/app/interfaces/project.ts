@@ -3,6 +3,7 @@ export interface Project {
     title: string;
     tags: string[];
     githubUrl?: string;
+    figmaUrl?: string;
     demoUrl: string;
     image: string
 }
