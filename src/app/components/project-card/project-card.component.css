@@ -38,6 +38,9 @@
     border: none;
     box-shadow: 5px 5px #04194D;
     transition: 0.5s;
+    max-width: 24rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .card:hover {
@@ -58,4 +61,10 @@
 
 .card-img-top:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1.5rem;
+    }
 }

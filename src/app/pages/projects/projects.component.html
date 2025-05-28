@@ -4,10 +4,10 @@
             <em>"Soy más feliz cuando estoy creando, aprendiendo, explorando y pensando en cómo mejorar las
                 cosas."</em>
         </h3>
-        <div class="row g-5">
+        <div class="row g-4">
             @for (project of myProjects; track project.id) {
-            <article class="col-lg-4">
-                <app-project-card [myProject]="project"></app-project-card>
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
+                <app-project-card [myProject]="project" class="w-100"></app-project-card>
             </article>
             } @empty {
             <p>No hay proyectos disponibles</p>
