@@ -25,13 +25,13 @@ h3 {
     color: white;
     box-shadow: 4px 5px #878AF6;
     letter-spacing: 2px;
-    /*font-family: "DM Sans", sans-serif;
-    letter-spacing: -0.2px;*/
     font-size: 0.9rem;
+    cursor: none;
 }
 
 .btn-blue:hover {
     background-color: #DFF944;
     color: #04194D;
     transition: 0.5s;
+    cursor: none;
 }

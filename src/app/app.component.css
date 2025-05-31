@@ -10,3 +10,20 @@
     background: #DFF944;
     border-radius: 50%;
 }
+
+
+.custom-cursor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6B4EDC;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: top 0.05s, left 0.05s, transform 0.2s ease;
+}
+
+.custom-cursor.clicked {
+    transform: translate(-50%, -50%) scale(0.7);
+}

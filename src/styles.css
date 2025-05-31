@@ -4,6 +4,7 @@
 * {
     font-family: "Shadows Into Light", cursive;
     color: #04194D;
+    cursor: none;
 }
 
 .border-blue {
@@ -32,7 +33,6 @@ h3 {
 
 a {
     text-decoration: none;
-    cursor: pointer;
 }
 
 .font-dm {
