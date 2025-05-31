@@ -1,22 +1,36 @@
+h3 {
+    font-family: "Shadows Into Light", cursive;
+}
+
 .card {
     border: 2px solid #04194D;
     box-shadow: 5px 5px #878AF6;
     background-color: #EDEEFD;
+    max-width: 1100px;
+}
+
+p,
+strong {
+    font-size: 1.1rem;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: -0.00875rem;
+}
+
+strong {
+    font-weight: 600;
 }
 
 .card-body {
     border-left: 2px solid #04194D;
-    padding-left: 2.6rem; 
-}
-
-.card-text {
-    font-size: 1.18rem;
-    text-align: justify;
+    padding-left: 2.8rem;
 }
 
 .card-text span {
     color: #6064F6;
-    font-weight: 600;
 }
 
 .carousel-item img {
@@ -56,7 +70,6 @@
     .card-body {
         margin: 0.6rem;
         border: none;
-        text-align: justify;
         padding: 0 30px;
     }
 
