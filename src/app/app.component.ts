@@ -11,21 +11,38 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 export class AppComponent {
   title = 'portfolio';
 
-  @ViewChild('cursor', { static: false }) cursorRef!: ElementRef;
+@ViewChild('cursor', { static: false }) cursorRef!: ElementRef;
+@ViewChild('tooltip', { static: false }) tooltipRef!: ElementRef;
 
-  ngAfterViewInit(): void {
-    document.addEventListener('mousemove', (e) => {
-      const cursor = this.cursorRef.nativeElement;
-      cursor.style.left = e.clientX + 'px';
-      cursor.style.top = e.clientY + 'px';
-    });
+ngAfterViewInit(): void {
+  if (window.matchMedia('(pointer: coarse)').matches) return;
 
-    document.addEventListener('click', () => {
-      const cursor = this.cursorRef.nativeElement;
-      cursor.classList.add('clicked');
-      setTimeout(() => {
-        cursor.classList.remove('clicked');
-      }, 150); // duración del efecto
-    });
-  }
+  const cursor = this.cursorRef.nativeElement;
+  const tooltip = this.tooltipRef.nativeElement;
+
+  document.addEventListener('mousemove', (e) => {
+    const x = e.clientX;
+    const y = e.clientY;
+    cursor.style.left = `${x}px`;
+    cursor.style.top = `${y}px`;
+
+    tooltip.style.left = `${x + 20}px`;
+    tooltip.style.top = `${y + 10}px`;
+
+    const el = document.elementFromPoint(x, y);
+    const tooltipText = el?.getAttribute('data-tooltip');
+
+    if (tooltipText) {
+      tooltip.textContent = tooltipText;
+      tooltip.classList.add('visible');
+    } else {
+      tooltip.classList.remove('visible');
+    }
+  });
+
+  document.addEventListener('click', () => {
+    cursor.classList.add('clicked');
+    setTimeout(() => cursor.classList.remove('clicked'), 150);
+  });
+}
 }

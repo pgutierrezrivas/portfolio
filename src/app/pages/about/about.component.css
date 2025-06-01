@@ -24,6 +24,10 @@ strong {
     font-weight: 600;
 }
 
+.carousel button {
+    cursor: none;
+}
+
 .card-body {
     border-left: 2px solid #04194D;
     padding-left: 2.8rem;

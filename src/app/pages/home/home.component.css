@@ -35,3 +35,7 @@ h3 {
     transition: 0.5s;
     cursor: none;
 }
+
+.font-dm {
+    line-height: 140%;
+}

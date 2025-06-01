@@ -4,24 +4,28 @@
     color: white;
     box-shadow: 4px 5px #878AF6;
     letter-spacing: 2px;
+    cursor: none;
 }
 
 .btn-blue:hover {
     background-color: #DFF944;
     color: #04194D;
     transition: 0.5s;
+    cursor: none;
 }
 
 .btn-yellow {
     background-color: #DFF944;
     color: #04194D;
     letter-spacing: 0.2px;
+    cursor: none;
 }
 
 .btn-yellow:hover {
     background-color: #878AF6;
     color: white;
     transition: 0.5s;
+    cursor: none;
 }
 
 .text-purple {

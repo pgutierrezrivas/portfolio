@@ -7,13 +7,13 @@
         <p class="card-text">{{myProject.tags}}</p>
         <p>
             @if (myProject.githubUrl) {
-            <a [href]="myProject.githubUrl" class="btn btn-yellow fs-5 py-0 me-2" target="_blank">Código Github</a>
+            <a [href]="myProject.githubUrl" class="btn btn-yellow fs-5 py-0 me-2" target="_blank" aria-label="Ver Github" data-tooltip="Ver Github">Código Github</a>
             }
             @if (myProject.figmaUrl) {
-            <a [href]="myProject.figmaUrl" class="btn btn-yellow fs-5 py-0" target="_blank">Figma</a>
+            <a [href]="myProject.figmaUrl" class="btn btn-yellow fs-5 py-0" target="_blank" aria-label="Ver Figma" data-tooltip="Ver Figma">Figma</a>
             }
         </p>
-        <p><a [href]="myProject.demoUrl" class="btn btn-blue text-uppercase fw-semibold px-4" target="_blank">Ir a la
+        <p><a [href]="myProject.demoUrl" class="btn btn-blue text-uppercase fw-semibold px-4" target="_blank" aria-label="Ver Github" data-tooltip="Ver demo">Ir a la
                 demo</a></p>
     </div>
 </div>
